@@ -14,7 +14,8 @@
         font-family: monospace;
         text-transform: uppercase;
         letter-spacing: 0.05rem;
-        line-height: 120%;
+        font-size: .9rem;
+        line-height: 130%;
         background: #000000;
         color: rgb(183, 209, 158);
       }
@@ -23,15 +24,11 @@
         display: block;
       }
       table {
-        /* border: 2pt solid black;
-        border-radius: 10px; */
-
         padding: 0.5rem;
 
         /* border-collapse: collapse; */
         
-        margin: 1rem 4rem;
-        margin-top: 1rem;
+        /* margin: 1rem 4rem; */
         /* margin: 1rem auto; */
 
         border-spacing: 10px;
@@ -44,6 +41,8 @@
 
       td {
         border-style: dotted;
+        max-width: 700px;
+        vertical-align: top;
       }
 
       mark {
@@ -51,86 +50,102 @@
         color: black;
       }
       
+      @media screen and (max-width: 800px) {
+        .col {
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+      }
+
     </style>
   </head>
   <body>
     <!-- header -->
     <header>
-      <table style="width: 1300px; color: rgb(183, 209, 158, 1);">
+      <table style="color: rgb(183, 209, 158, 1);">
         <tr>
-          <td style="width: 40px; border: none;"></td>
           <td style="border: none;">chris kim (he/him)</td>
           <td style="border: none; text-align: right;">a-generative-web</td>
-          <td style="width: 600px; border: none;"></td>
         </tr>
       </table>
     </header>
     <!-- end of header -->
 
-    <!-- week2 -->
-    <section>
-      <table style="width: 1300px; color: rgb(183, 209, 158, 1)">
-        <tr>
-          <td style="width: 40px; border: none;"></td>
-          <td style="width: 540px;">02.09.22</td>
-          <td style="width: 0px; border: none;"></td>
-          <td style="width: 600px; border: none;"></td>
-        </tr>
-        <tr>
-          <td>week2</td>
-          <td>
-            <p>j.r. carpenter || a handmade web</p><br>
-            <p>i liked how this reading talked about the intimacy of the handmade web page, and the idea of building a web page as a "craft" and "manual labor" - i felt it was particularly resonant as i was working on this web page because it took me a lot longer than i thought it would to achieve something that seems very simple and i found myself reworking things over and over again.</p><br>
-            <p>also about the idea of manual labor, the surf-club reading made me think about how algorithms changed the way we "surf" the web, where everything is more spoonfed to us now. it reminded me that there was more of a sense of being able to get lost in the web that there is less of today.</p><br>
-            <p>what i thought was also interesting from the surf-club reading was the contrast between the web today and the web in the early 2000s, especially the idea of ownership and what is public versus what is private on the web. i'm interested in learning more about NFTs and blockchain technology because admittedly i get confused, and i thought it was interesting how the idea of ownership has evolved.
-            </p>
-          </td>
-          <td style="width: 0px; border: none;"></td>
-          <td style="width: 500px; vertical-align: top;">
-            <p>links i enjoyed</p><br>
-            <a href="http://archive.rhizome.org/anthology/form-art/www.c3.hu/collection/form/index1.html">form</a>
-            <a href="http://luckysoap.com/generations/gorge.html">gorge</a>
-            <a href="http://tilde.club/">tilde.club</a>
-            <a href="http://art.teleportacia.org/">olia lialina</a><br><br>
-            <p>i thought it was funny/fun that the readings talked about broken links and some of the links were broken</p>
-          </td>
-        </tr>
-      </table>
-    </section>
+<!-- week3 -->
+<section>
+  <table style="display: inline-block; color: rgb(183, 209, 158, 1)">
+    <tr>
+      <td>Week 3 | 02.16.22</td>
+    </tr>
+    <tr>
+      <td class="col">
+        <p>jodi's infrastructure</p><br>
+        <p>A line from the reading that I liked was”…the texture of code and computation takes over, and computing itself—its strange logic, its grammar and structure, and often its shape and color—produces the aesthetic,” in contrast to the idea of the artists' “subjective impulses” shaping the aesthetic of their work. Something that I find interesting about coding and working with mediums that I am less familiar with is being able to produce outcomes that I was not able to preconceive. This passage reminded me of working with code and seeing things in the console that I was not expecting, and I think it's cool that coding can produce outcomes that we as humans cannot create on our own.</p><br>
+        <p>What interests me about the idea of 'generativity' is that it addresses something that I struggle with at times, which is making decisions about certain kinds of things. The idea of creating some kind of a system that reduces the need for “subjective impulses” or certain kinds of decision making is appealing in that it seems liberating in a way.</p><br>
+        <p>I think it was really cool how Jodi used the infrastructure of the web in their work in ways I haven't seen before or even knew was possible. An example is their emoji animation in the browser address bar which reminded me of the Touch Bar on MacBook Pros. I learned something new because I never knew unicode characters could be used in domain names.
+        </p>
+      </td>
+      <td class="col">
+        <p>instruction based artwork</p><br>
+        <img src="https://digitalartarchive.siggraph.org/wp-content/uploads/2017/05/1968_KomuraYamanaka_ReturntoaSquareb.jpg" alt="masao komura">
+        <a href="https://spalterdigital.com/artworks/cybernetic-serendipity-the-computer-and-the-arts-portfolio/">masao komura 1</a>
+        <a href="https://observablehq.com/@stwind/return-to-a-square">masao komura 2</a>
+        <br><br>
+        <p>i wasn't sure if this counts, so i also included the karl gerstner example below:</p><br>
+        <img src="https://www.arsvalue.com/Upl/Auctions/196/423/40260/3-0.jpg" alt="karl gerstner">
+        <p>karl gerstner</p>
+        
+      </td>
+    </tr>
+  </table>
+</section>
+<!-- end of week3 -->
+<br>
+<!-- week2 -->
+<section>
+  <table style="display: inline-block; color: rgb(183, 209, 158, .5)">
+    <tr>
+      <td>Week 2 | 02.09.22</td>
+    </tr>
+    <tr>
+      <td class="col">
+        <p>j.r. carpenter || a handmade web</p><br>
+        <p>i liked how this reading talked about the intimacy of the handmade web page, and the idea of building a web page as a "craft" and "manual labor" - i felt it was particularly resonant as i was working on this web page because it took me a lot longer than i thought it would to achieve something that seems very simple and i found myself reworking things over and over again.</p><br>
+        <p>also about the idea of manual labor, the surf-club reading made me think about how algorithms changed the way we "surf" the web, where everything is more spoonfed to us now. it reminded me that there was more of a sense of being able to get lost in the web that there is less of today.</p><br>
+        <p>what i thought was also interesting from the surf-club reading was the contrast between the web today and the web in the early 2000s, especially the idea of ownership and what is public versus what is private on the web. i'm interested in learning more about NFTs and blockchain technology because admittedly i get confused, and i thought it was interesting how the idea of ownership has evolved.
+        </p>
+      </td>
+      <td class="col">
+        <p>links i enjoyed</p><br>
+        <a href="http://archive.rhizome.org/anthology/form-art/www.c3.hu/collection/form/index1.html">form</a>
+        <a href="http://luckysoap.com/generations/gorge.html">gorge</a>
+        <a href="http://tilde.club/">tilde.club</a>
+        <a href="http://art.teleportacia.org/">olia lialina</a><br><br>
+        <p>i thought it was funny/fun that the readings talked about broken links and some of the links were broken</p>
+      </td>
+    </tr>
+  </table>
+</section>
 <!-- end of week2 -->
 <br>
 <!-- week1 -->
-    <section>
-      <table style="width: 1300px; color: rgb(183, 209, 158, .5)">
-        <tr>
-          <td style="border: none;"></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td style="width: 40px;">week1</td>
-          <td style="width: 540px;">02.02.22 | intro</td>
-          <td style="width: 0px; border: none;"></td>
-          <td style="width: 600px; border: none;"></td>
-        </tr>
-        <tr>
-          <td style="border: none;"></td>
-          <td style="vertical-align: top;">
-            <p>A javascript clock with a reminder every hour.</p>
+<section>
+  <table style="display: inline-block; color: rgb(183, 209, 158, .5)">
+    <tr>
+      <td>Week 1 | 02.02.22</td>
+    </tr>
+    <tr>
+      <td class="col" style="width: 50%;">
+        <p>A javascript clock with a reminder every hour.</p>
             <br>
             <a href="http://b.parsons.edu/~kimc406/projects/clock/index.html" target="_blank">link</a>
-          </td>
-          <td style="width: 0px; border: none;"></td>
-          <td style="width: 500px;">
-            <details>
-              <summary>image
-              </summary>
-              <img src="images/js-clock-small.png" alt="javascript clock">
-            </details>
-          </td>
-        </tr>
-      </table>
-    </section>
+      </td>
+      <td class="col">
+        <img src="images/js-clock-small.png" alt="javascript clock">
+      </td>
+    </tr>
+  </table>
+</section>
 <!-- end of week1 -->
 <br>
 <!-- week1 -->
